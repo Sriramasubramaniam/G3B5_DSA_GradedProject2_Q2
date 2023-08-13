@@ -5,7 +5,6 @@ import Tree.Tree;
 import java.util.ArrayList;
 
 public class RemoveLeftNodes {
-    ArrayList sortedArray = new ArrayList<>();
     Tree prevNode = null;
     Tree leastNode = null;
     public Tree modifyToRemoveLeftNodes(Tree root){
